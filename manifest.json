@@ -1,0 +1,18 @@
+{
+    "name": "Note Search",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "open notes",
+    "browser_action": {
+    "default_icon": "sap.png"
+    },
+    "permissions": [
+      "contextMenus"
+     ],
+    "background": { 
+      "scripts": ["script.js"]
+    },
+    "icons": {
+    "16": "sap.png"
+    }
+}
